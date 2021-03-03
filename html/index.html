@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Asesorias profesionales para tu estudio Webcam">
+    <meta name="description" content="Curso definitivo de HTML y CSS de Platzi">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-
-    <title>Curso HTML</title>
+    <link rel="stylesheet" href="/styles.css">   
+    <title>Curso HTML y CSS</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Cursos</a></li>
+                <li><a href="">Instructores</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MANERA DE HACER BOTONES -->
+    <!-- <main>
+        <p class="parrafo">Soy un texto con CSS</p>
+        <p id="texto">Soy otro texto</p>
+    </main> -->
+
     <input type="submit" value="Nombre" >
     <button type="submit">Que color</button>
-    <main>
+    
+    <!-- <main>
+    
         <fieldset>
-            <input list="cursos">
+            <!-- MANERA RECOMENDADA -->
+            <!-- <input list="cursos">
             <datalist id="cursos">
                 <option value="JS">JS</option>
                 <option value="HTML5">HTML5</option>
                 <option value="CSS3">CSS3</option>
                 <option value="Python">Python</option>
                 <option value="Web Standars">Web Standars</option>
-            </datalist>
+            </datalist> -->
+            
+            <!-- MANERA NO RECOMENDADA -->
             <!-- <select name="cursos" id="">
             <option value="JS">JS</option>
             <option value="HTML5">HTML5</option>
@@ -29,34 +50,31 @@
             <option value="Python">Python</option>
             <option value="Web Standars">Web Standars</option>
         </select> -->
-        </fieldset>
-
+        </fieldset> 
         
-
-
         <form action="">
             <fieldset>
                 <legend>Formulario de dirección</legend>
                  <label for="nombre">
-                    <span>¿Cual es tu nombre?</span>
+                    <span id="span">¿Cual es tu nombre?</span>
                     <input type="text" name="nombre" id="nombre" placeholder="Ej: Benito Camelas" autocomplete="name" required>
                 </label>
                 <br>
                 <br>
                 <label for="correo">
-                    <span>¿Cual es tu correo?</span>
+                    <span id="span">¿Cual es tu correo?</span>
                     <input type="email" name="correo" id="correo" placeholder="Ej: example@tucorreo.com" autocomplete="email" required>
                 </label>
                 <br>
                 <br>
                 <label for="pais">
-                    <span>¿Cual es tu pais?</span>
+                    <span id="span">¿Cual es tu pais?</span>
                     <input type="text" name="pais" id="pais" placeholder="Ej: Estados Unidos" autocomplete="country" required>
                 </label>
                 <br>
                 <br>
                 <label for="cp">
-                    <span>¿Cual es tu codigo postal?</span>
+                    <span id="span">¿Cual es tu codigo postal?</span>
                     <input type="text" name="cp" id="cp" placeholder="Ej: 115563" autocomplete="postal-code" required>
                 </label> 
                 <br>
@@ -64,12 +82,14 @@
                 <input type="submit" value="Enviar">
             </fieldset>           
         </form>
-    </main>
+    </main> -->
     
 
 
     <!-- ETIQUETAS MULTIMEDIA -->
-    <!-- <h3>Lista para ir a mercar a la plaza</h3>
+
+    <!-- <fieldset>
+        <legend ><h3>Lista para ir a mercar a la plaza</h3></legend>        
     <ul>
         <li>Frutas</li>
         <ol>
@@ -94,7 +114,9 @@
             </figure>
             <li><a href="https://www.youtube.com/watch?v=sv-l31zrnYs" target="blank" >Alitas</a></li>
         </ol>
-    </ul>     -->
+    </ul>    
+    </fieldset> -->
+    
 </body>
 </html>
 
