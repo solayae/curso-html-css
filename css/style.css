@@ -1,0 +1,15 @@
+/* SELECTORES POR ELEMENTOS */
+p {
+    color: blue;
+    font-size: 35px;
+}
+
+/* CLASS */
+.parrafo {
+    color: red;
+}
+
+/* ID */
+#texto {
+    color: green;
+} 
