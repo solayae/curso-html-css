@@ -1,0 +1,54 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: Juventus Fans Bold;
+}
+@font-face {
+    font-family: "Juventus Fans Bold";
+    src: url(./fonts/juventus-font.ttf);
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+nav {
+    padding: 20px;
+    background-color: grey;
+}
+.logo {
+    display: inline-block;
+}
+.welcome {
+    display: inline-block;
+}
+.sidebar {
+    background-color: #7FFF00;
+    width: 18vw;
+    height: 60vh;
+    font-size: 3rem;
+    position: relative;
+}
+.main-content {
+    background-color: #DC143C;
+    position: relative;
+    width: 82vw;
+    height: 60vh;
+    left: 2rem;
+    bottom: 22.6%;
+}
+
+.footer {
+    background-color: indigo;
+    display: ;
+}
+.footer-redes {
+    display: inline-block;
+}
+.footer-pagos {
+    display: inline-block;
+    
+}

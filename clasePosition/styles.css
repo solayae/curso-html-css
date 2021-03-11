@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62%;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+
+}
+.container {
+    border-radius: 20px;
+    background-color: blueviolet;
+    top: 30vh;
+
+}
+.box {
+    display: inline-block;  
+    border-radius: 20px;  
+}
+#parrafo {
+    background-color: hotpink;
+    position:relative;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+}
+#titulo {
+    background-color: green;
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    
+}
