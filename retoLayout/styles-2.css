@@ -14,64 +14,68 @@ li {
 }
 header {
     background-color: crimson;
-    height: 10vh;
+    height: 5rem; 
 }
-img {
-    display: inline-block;
+header > nav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2.5rem;
 }
-figure {
-    padding: 1rem;
-    display: inline-block;
+header > nav > figure {
+    margin-left: 2.5rem;
 }
-nav {
-    right: 3.5rem;
-    position: absolute;
-    display: inline-block;
-    margin: 2.5rem 0;
-    font-size: 1.6rem;
-}
-aside {
-    background-color: darkblue;
-    height: 80vh;
-    width: 20vw;
-    padding: 2rem;
-}
-div {
-    font-size: 1.6rem;
-    padding: 5rem;
-    margin: 1rem;
-    border: solid 1px black;
-    border-radius: 10px;
-    width: 90%;
-    text-align: center;
-    background-color: blanchedalmond;
+ul{
+    font-size: 2rem;
 }
 main {
     background-color: chartreuse;
-    width: 80vw;
-    height: 80vh;
-    position: absolute;
-    left: 20vw;
-    bottom: 10vh;
+    width: 100%;
+    height: 60rem;
+    display: flex;
 }
-article {
-    font-size: 2rem;
-    padding: 1.5rem;
+aside {
+    background-color: darkblue;
+    height: inherit;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.element {
+    font-size: 1.6rem;
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 20%;
+    width: 80%;
+    text-align:center;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content:center;
+}
+section {
+    display: flex;
+    width: 80%;
+}
+section > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section > article > p {
+    font-size: 3rem;
+    padding: 2rem 4rem;
+    margin: 5rem 0rem;
 }
 footer {
     background-color:gold;
-    height: 10vh;
+    height: 5rem;
 }
-h2,h5 {
-    display: inline-block;
-    margin: 2.5rem;
-    position: absolute;
-}
-
-h2 {
+footer > div {
+    display: flex;
+    justify-content: space-between;
     font-size: 1.6rem;
-    right: 1rem;
-}
-h5 {    
-    font-size: 2rem;
+    padding: 1rem 2rem;
 }
