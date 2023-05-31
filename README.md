@@ -1,2 +1,2 @@
-# cursoDefinitivoHTML-CSS
-Curso definitivo de HTML y CSS de Platzi
+# Curso definitivo de HTML y CSS de Platzi.
+
